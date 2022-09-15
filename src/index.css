@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+  padding: 45px 80px;
+  background-color: antiquewhite;
+}
+
+img{
+  width: 180px;
+  height: 150px;
+}
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: brown;
+}
+
+hr{
+  width: 70%;
+  border: 2px solid;
+}
